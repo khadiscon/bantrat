@@ -28,7 +28,8 @@ from telegram.ext import (
     filters,
 )
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
+# Your token has been added as the default fallback here
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8403134981:AAEyf6EBA2YDuz_PHG_sVnRt6TP6lcdhyYI")
 BANKR_BASE_URL = "https://api.bankr.bot"
 KEYS_FILE = "user_keys.json"
 
